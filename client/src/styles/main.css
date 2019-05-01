@@ -1,0 +1,31 @@
+Html {
+    box-sizing: border-box;
+}
+
+*,* ::after, *::before {
+    box-sizing: inherit;
+}
+#container {
+    
+}
+#maincontainer {
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    
+}
+#leftside {
+    width: 300px;
+}
+#center {
+   width: 900px
+}
+.allcats {
+    display: flex;
+}
+.allcats > h3, div {
+  margin: 0 10px;
+}
+#rightside {
+    width: 300px;
+}
